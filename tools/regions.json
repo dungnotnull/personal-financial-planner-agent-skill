@@ -1,0 +1,55 @@
+{
+  "schema": "personal-financial-planner/regions",
+  "version": "1.0",
+  "note": "Region defaults for educational framing only. Rates/limits change; verify current figures before use. Not tax/legal advice.",
+  "regions": {
+    "US": {
+      "currency": "USD",
+      "tax_advantaged_contribution_limit_ira_annual": 7000,
+      "tax_advantaged_contribution_limit_401k_annual": 23000,
+      "employer_match_note": "Capture at least the employer match; otherwise leaving free compensation on the table.",
+      "emergency_fund_months": [3, 6],
+      "dti_healthy": 0.36,
+      "high_interest_apr": 0.15,
+      "savings_rate_target": 0.20,
+      "budget_split": {"needs": 0.50, "wants": 0.30, "savings": 0.20},
+      "concentration_limit": 0.40
+    },
+    "VN": {
+      "currency": "VND",
+      "tax_advantaged_contribution_limit_ira_annual": null,
+      "tax_advantaged_contribution_limit_401k_annual": null,
+      "employer_match_note": "Statutory social insurance applies; voluntary pension fund contributions may be tax-advantaged.",
+      "emergency_fund_months": [3, 6],
+      "dti_healthy": 0.36,
+      "high_interest_apr": 0.18,
+      "savings_rate_target": 0.20,
+      "budget_split": {"needs": 0.50, "wants": 0.30, "savings": 0.20},
+      "concentration_limit": 0.40
+    },
+    "EU": {
+      "currency": "EUR",
+      "tax_advantaged_contribution_limit_ira_annual": null,
+      "tax_advantaged_contribution_limit_401k_annual": null,
+      "employer_match_note": "Occupational pension schemes vary by country; capture any employer contribution.",
+      "emergency_fund_months": [3, 6],
+      "dti_healthy": 0.36,
+      "high_interest_apr": 0.15,
+      "savings_rate_target": 0.20,
+      "budget_split": {"needs": 0.50, "wants": 0.30, "savings": 0.20},
+      "concentration_limit": 0.40
+    },
+    "UK": {
+      "currency": "GBP",
+      "tax_advantaged_contribution_limit_ira_annual": null,
+      "tax_advantaged_contribution_limit_401k_annual": 60000,
+      "employer_match_note": "Workplace pension auto-enrolment: capture employer contributions; annual allowance applies.",
+      "emergency_fund_months": [3, 6],
+      "dti_healthy": 0.36,
+      "high_interest_apr": 0.15,
+      "savings_rate_target": 0.20,
+      "budget_split": {"needs": 0.50, "wants": 0.30, "savings": 0.20},
+      "concentration_limit": 0.40
+    }
+  }
+}

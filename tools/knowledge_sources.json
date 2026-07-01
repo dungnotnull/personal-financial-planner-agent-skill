@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {"name": "CFPB", "url": "https://www.consumerfinance.gov/about-us/blog/"},
+    {"name": "NBER", "url": "https://www.nber.org/papers"},
+    {"name": "SSRN HouseholdFinance", "url": "https://www.ssrn.com/index.cfm/en/"},
+    {"name": "OECD Financial Literacy", "url": "https://www.oecd.org/financial/education/"}
+  ],
+  "queries": [
+    "personal finance benchmarks",
+    "household debt statistics",
+    "savings rate report",
+    "interest rate update"
+  ]
+}

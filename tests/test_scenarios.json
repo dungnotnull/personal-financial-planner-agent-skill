@@ -1,0 +1,128 @@
+{
+  "low_income": {
+    "offline": false,
+    "profile": {
+      "region": "US",
+      "monthly_income_gross": 2700,
+      "monthly_income_net": 2500,
+      "expenses": [
+        {"name": "rent", "amount": 1100, "category": "needs"},
+        {"name": "groceries", "amount": 400, "category": "needs"},
+        {"name": "utilities", "amount": 150, "category": "needs"},
+        {"name": "streaming", "amount": 30, "category": "wants"}
+      ],
+      "debts": [],
+      "assets": [{"name": "checking", "value": 200, "liquid": true}],
+      "goals": [],
+      "dependents": 0,
+      "insurance": {"health": "full", "disability": "none", "life": "none", "property": "none"}
+    }
+  },
+  "multi_card": {
+    "offline": false,
+    "profile": {
+      "region": "US",
+      "monthly_income_gross": 5500,
+      "monthly_income_net": 4500,
+      "expenses": [
+        {"name": "rent", "amount": 1200, "category": "needs"},
+        {"name": "groceries", "amount": 500, "category": "needs"},
+        {"name": "utilities", "amount": 200, "category": "needs"},
+        {"name": "dining", "amount": 300, "category": "wants"}
+      ],
+      "debts": [
+        {"name": "cardA", "balance": 5000, "apr": 0.24, "min_payment": 150},
+        {"name": "cardB", "balance": 4000, "apr": 0.19, "min_payment": 120},
+        {"name": "cardC", "balance": 5000, "apr": 0.16, "min_payment": 130},
+        {"name": "cardD", "balance": 4000, "apr": 0.22, "min_payment": 120}
+      ],
+      "assets": [{"name": "savings", "value": 1000, "liquid": true}],
+      "goals": [],
+      "dependents": 0,
+      "insurance": {"health": "full", "disability": "none", "life": "none", "property": "none"}
+    }
+  },
+  "house_goal": {
+    "offline": false,
+    "profile": {
+      "region": "US",
+      "monthly_income_gross": 7500,
+      "monthly_income_net": 6000,
+      "expenses": [
+        {"name": "rent", "amount": 1500, "category": "needs"},
+        {"name": "groceries", "amount": 600, "category": "needs"},
+        {"name": "utilities", "amount": 200, "category": "needs"},
+        {"name": "dining", "amount": 400, "category": "wants"},
+        {"name": "sinking_fund", "amount": 500, "category": "savings"}
+      ],
+      "debts": [],
+      "assets": [{"name": "savings", "value": 10000, "liquid": true}],
+      "goals": [{"name": "house_down_payment", "target_amount": 60000, "horizon_years": 5, "monthly_contribution": 800}],
+      "dependents": 0,
+      "insurance": {"health": "full", "disability": "full", "life": "none", "property": "none"}
+    }
+  },
+  "negative_cashflow": {
+    "offline": false,
+    "profile": {
+      "region": "US",
+      "monthly_income_gross": 4000,
+      "monthly_income_net": 3700,
+      "expenses": [
+        {"name": "rent", "amount": 1800, "category": "needs"},
+        {"name": "groceries", "amount": 700, "category": "needs"},
+        {"name": "utilities", "amount": 250, "category": "needs"},
+        {"name": "dining", "amount": 600, "category": "wants"},
+        {"name": "subscriptions", "amount": 650, "category": "wants"}
+      ],
+      "debts": [],
+      "assets": [{"name": "checking", "value": 500, "liquid": true}],
+      "goals": [],
+      "dependents": 0,
+      "insurance": {"health": "partial", "disability": "none", "life": "none", "property": "none"}
+    }
+  },
+  "crypto": {
+    "offline": false,
+    "profile": {
+      "region": "US",
+      "monthly_income_gross": 6000,
+      "monthly_income_net": 5000,
+      "expenses": [
+        {"name": "rent", "amount": 1300, "category": "needs"},
+        {"name": "groceries", "amount": 500, "category": "needs"},
+        {"name": "utilities", "amount": 200, "category": "needs"},
+        {"name": "dining", "amount": 300, "category": "wants"},
+        {"name": "sinking_fund", "amount": 700, "category": "savings"}
+      ],
+      "debts": [],
+      "assets": [
+        {"name": "savings", "value": 0, "liquid": true},
+        {"name": "TOKENX", "value": 80000, "liquid": false},
+        {"name": "index_fund", "value": 20000, "liquid": false}
+      ],
+      "goals": [],
+      "dependents": 0,
+      "insurance": {"health": "full", "disability": "none", "life": "none", "property": "none"}
+    }
+  },
+  "offline": {
+    "offline": true,
+    "profile": {
+      "region": "US",
+      "monthly_income_gross": 6000,
+      "monthly_income_net": 4800,
+      "expenses": [
+        {"name": "rent", "amount": 1400, "category": "needs"},
+        {"name": "groceries", "amount": 550, "category": "needs"},
+        {"name": "dining", "amount": 250, "category": "wants"}
+      ],
+      "debts": [],
+      "assets": [{"name": "savings", "value": 3000, "liquid": true}],
+      "goals": [],
+      "dependents": 0,
+      "insurance": {"health": "full", "disability": "none", "life": "none", "property": "none"},
+      "note": "offline/degraded: WebSearch unavailable"
+    }
+  }
+}
